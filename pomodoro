@@ -121,9 +121,9 @@ function pomo_clock {
     fi
 }
 case $BLOCK_BUTTON in
-	1) pomo_start ;;          # left click to start timer
-  2) pomo_stop ;;           # middle click to stop timer
-	3) pomo_pause ;;          # right click to pause timer
+    1) pomo_start ;;          # left click to start timer
+    2) pomo_stop ;;           # middle click to stop timer
+    3) pomo_pause ;;          # right click to pause timer
 esac
 
 echo $(pomo_clock)          # echo status
